@@ -18,6 +18,9 @@ class FrameworkObject(object):
     def _log(self, message, level=logging.INFO):
         self.logger.log(level, message)
 
+    def _info(self, message):
+        self.logger.info(message)
+
     def _log_warning(self, message):
         self.logger.warning(message)
 
