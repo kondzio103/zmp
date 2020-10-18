@@ -1,7 +1,15 @@
+"""
+####################################################################
+Grid
+
+Konrad Komorowski
+####################################################################
+"""
+
 import pygame
 
 from framework.fw_object import FrameworkObject
-import objects.config as cfg
+import game_objects.config as cfg
 
 
 class Grid(FrameworkObject):

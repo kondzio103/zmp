@@ -1,10 +1,19 @@
+"""
+####################################################################
+Snake runner
+
+Konrad Komorowski
+####################################################################
+"""
+
+
 import pygame
 
 from framework.fw_object import FrameworkObject
-from objects.config import SCREEN_WIDTH, SCREEN_HEIGHT
-from objects.food import Food
-from objects.snake import Snake
-from objects.grid import Grid
+from game_objects.config import SCREEN_WIDTH, SCREEN_HEIGHT
+from game_objects.food import Food
+from game_objects.snake import Snake
+from game_objects.grid import Grid
 
 
 class SnakeGame(FrameworkObject):

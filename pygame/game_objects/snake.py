@@ -1,5 +1,6 @@
 """
 ####################################################################
+Snake
 
 Konrad Komorowski
 ####################################################################
@@ -9,7 +10,7 @@ import sys
 import pygame
 
 from framework.fw_object import FrameworkObject
-import objects.config as cfg
+import game_objects.config as cfg
 
 UP = (0, -1)
 DOWN = (0, 1)
