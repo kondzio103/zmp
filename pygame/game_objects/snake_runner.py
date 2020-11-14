@@ -15,11 +15,13 @@ from game_objects.snake_obj import Food, Snake, Grid
 
 
 class SnakeGame(FrameworkObject):
+    """ Snake Game main class"""
     def __init__(self):
-        super(SnakeGame, self).__init__(name='Game')
+        super().__init__(name='Game')
 
     @staticmethod
     def run():
+        """ Start Snake game instance """
         pygame.init()
 
         clock = pygame.time.Clock()

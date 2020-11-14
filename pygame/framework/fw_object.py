@@ -4,11 +4,11 @@
 Konrad Komorowski
 ####################################################################
 """
-import framework.fw_logging as fw_logging
 import logging
+import framework.fw_logging as fw_logging
 
 
-class FrameworkObject(object):
+class FrameworkObject:
     """ Base FW object. """
 
     def __init__(self, name):
