@@ -45,6 +45,4 @@ def test_file_loggers():
     with open(ERROR_FILE, encoding='utf-8') as file:
         for i, line in enumerate(file, 3):
             line_str = line[26:]
-            print('file' + line_str)
-            print('orgi' + log_table[i][1])
             assert line_str in log_table[i][1]

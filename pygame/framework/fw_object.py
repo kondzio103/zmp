@@ -18,7 +18,10 @@ class FrameworkObject(object):
     def _log(self, message, level=logging.INFO):
         self.logger.log(level, message)
 
-    def _info(self, message):
+    def _log_debug(self, message):
+        self.logger.debug(message)
+
+    def _log_info(self, message):
         self.logger.info(message)
 
     def _log_warning(self, message):
@@ -26,3 +29,6 @@ class FrameworkObject(object):
 
     def _log_error(self, message):
         self.logger.error(message)
+
+    def _log_critical(self, message):
+        self.logger.critical(message)
